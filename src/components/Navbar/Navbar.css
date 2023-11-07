@@ -1,0 +1,123 @@
+.nav-main {
+  background: var(--primary-color);
+}
+
+.nav-wrap {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.nav-wrap .icon {
+  color: #fff;
+  font-size: 20px;
+}
+.nav-wrap .left-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 25px;
+}
+.nav-wrap .right-wrap {
+  padding-right: 25px;
+}
+
+.icon-wrap {
+  line-height: 1;
+}
+
+.search-box {
+  background: rgba(255, 255, 255, 0.2);
+  border: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 2px;
+  gap: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+.search-box input {
+  border: 0;
+  width: 100%;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+.search-box input::-moz-placeholder {
+  color: #fff;
+}
+.search-box input::placeholder {
+  color: #fff;
+}
+
+.right-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+}
+.right-wrap .user {
+  height: 25px;
+  width: 25px;
+}
+.right-wrap .user .img {
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid #fff;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compl-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dp-btn {
+  position: relative;
+  z-index: 2;
+}
+.dp-btn .dropdown {
+  position: absolute;
+  background: #fff;
+  right: 0;
+  top: 30px;
+  min-width: 150px;
+  font-size: 13px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 3px;
+  padding: 5px 0;
+  z-index: 1;
+}
+.dp-btn .dropdown .link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 15px;
+  line-height: 1;
+  text-decoration: none;
+  color: #202020;
+  transition: all 0.5s ease-in-out;
+}
+.dp-btn .dropdown .link:hover {
+  background: #eee;
+  transition: all 0.5s ease-in-out;
+}
+.dp-btn .dropdown .link img {
+  height: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.dp-click {
+  cursor: pointer;
+}/*# sourceMappingURL=Navbar.css.map */

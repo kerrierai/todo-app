@@ -1,0 +1,106 @@
+.login-signup {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f6f6;
+}
+
+.sm-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signin-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 60vh;
+  background: #fff;
+  border-radius: 8px;
+  align-items: center;
+}
+.signin-grid .img-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signin-grid .img-wrapper .img-responsive {
+  width: 80%;
+}
+.signin-grid .right-box {
+  padding: 60px;
+  border-left: 2px solid #f3f3f3;
+}
+.signin-grid .right-box input {
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid #e2e2e2;
+}
+.signin-grid .right-box button, .signin-grid .right-box input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 15px 20px;
+}
+.signin-grid .right-box h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.signin-grid .right-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.signin-grid .right-box a {
+  color: #2e2e2e;
+}
+
+.additional-details {
+  margin-top: 20px;
+  color: #2e2e2e;
+  font-size: 15px;
+}
+.additional-details p {
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.other-login {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.other-login a {
+  border: 2px solid #dcdcdc;
+  border-radius: 2px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.other-login img {
+  width: 20px;
+}
+
+.opt-link {
+  text-align: center;
+  color: #2e2e2e;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login-failed-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}/*# sourceMappingURL=LoginSignup.css.map */

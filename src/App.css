@@ -1,0 +1,50 @@
+.right-body{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.tgl-btn{
+    background: transparent;
+    padding: 5px 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 1;
+    border: 0;
+    color: #666;
+    font-weight: 500;
+    padding-left: 8px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.tgl-btn:hover{
+    background: #ececec;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon{
+    width: 24px;
+    object-fit: contain;
+}
+
+.tite-card{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.tite-card .fixed{
+    position: sticky;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.grid-view .listed-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}

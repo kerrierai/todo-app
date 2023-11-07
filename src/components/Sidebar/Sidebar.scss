@@ -1,0 +1,52 @@
+.sidebar{
+    background: #fafafa;
+    min-height: 94vh;
+    padding: 30px 20px;
+
+    .icon{
+        height: 24px;
+        width: 24px;
+    }
+}
+
+.side-menu{
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+
+    a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #202020;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+
+
+        .icon{
+            width: 18px;
+            object-fit: contain;
+        }
+
+        .count{
+            color: #aaa;
+            font-size: 12px;
+        }
+
+        &:hover{
+            background: #eee;
+            transition: all 0.5s ease-in-out;
+        }
+
+        &.active{
+            background: #eee;
+
+            .count{
+                color: red;
+            }
+        }
+    }
+}
